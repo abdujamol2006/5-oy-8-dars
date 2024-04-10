@@ -20,19 +20,30 @@
             <li>Contact</li>
           </ul>
         </nav>
-        <button>DarkMode</button>
+        <button id="darkmodeBtn">
+          <img id="darkmodeImg" src="./images/sun.png" width="20px" alt="" />
+          Light mode
+        </button>
       </div>
     </header>
     <main>
-      <div class="container">
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus quam, repudiandae nemo vitae deserunt distinctio, optio
-          quia dolores et sequi laboriosam at expedita dolor sed natus?
-          Excepturi earum eius at optio, eveniet debitis quaerat eaque facilis
-          perspiciatis numquam ducimus inventore culpa iusto labore magnam sint
-          ad autem voluptas totam? Iure!
-        </h2>
+      <div class="container main-container">
+        <h2 class="title">To Do Form</h2>
+
+        <form id="todoForm">
+          <div class="div">
+            <input
+              id="searchInp"
+              type="text"
+              required
+              placeholder="Enter todo"
+            />
+            <button id="submitBtn" type="submit">Submit</button>
+          </div>
+        </form>
+        <ul id="productList">
+          <li id="listItem"></li>
+        </ul>
       </div>
     </main>
     <footer class="footer"></footer>
